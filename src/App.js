@@ -4,7 +4,6 @@ import { Rutas } from "./routes/Rutas";
 function App() {
   return (
     <BrowserRouter>
-
       <Rutas/>
     </BrowserRouter>
   );

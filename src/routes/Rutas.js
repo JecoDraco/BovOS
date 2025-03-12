@@ -11,15 +11,12 @@ export function Rutas() {
       <Page/>
     </Layout>
   )
-    
   
   return (
-    
     <Routes>
       <Route path="/" element={Layouts(Plantilla,Home)} />
       <Route path="/producto" element={Layouts(Plantilla,HomeProductos)} />
       <Route path="/formproductos" element={Layouts(Plantilla,Productos)}/>
     </Routes>
-    
   );
 }

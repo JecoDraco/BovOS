@@ -10,13 +10,16 @@ export function Menu() {
           🏠 Home
         </Link>
         <Link className="nav-link text-white mt-3" to="/producto">
-          🛍️ Productos
+          🛍️ Listado
         </Link>
         <Link className="nav-link text-white mt-3" to="/formproductos">
-          📦 Gestión de productos
+          📦 Usuarios
         </Link>
         <span className="nav-link text-secondary mt-3" aria-disabled="true">
-          ❌ Disabled
+          ❌ Gestion
+        </span>
+        <span className="nav-link text-secondary mt-3" aria-disabled="true">
+          ❌ Informe
         </span>
       </nav>
     </>
